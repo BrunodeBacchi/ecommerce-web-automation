@@ -1,8 +1,8 @@
 const Chance = require('chance');
 const chance = new Chance();
 
-describe('backoffice spec', () => {
-    it('passes', () => {
+describe('Product Registration', () => {
+    it('Register', () => {
         cy.visit('https://front.serverest.dev/login');
 
         cy.get("[data-testid='cadastrar']").click();
