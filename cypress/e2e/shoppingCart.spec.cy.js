@@ -1,8 +1,8 @@
 const Chance = require('chance');
 const chance = new Chance();
 
-describe('template spec', () => {
-  it('passes', () => {
+describe('Shopping Cart Test', () => {
+  it('Shopping cart registration and cleaning', () => {
     cy.visit('https://front.serverest.dev/login');
 
     cy.get("[data-testid='cadastrar']").click();
